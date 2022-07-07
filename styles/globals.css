@@ -14,11 +14,26 @@
   .bannner-heading {
     @apply font-primary font-bold text-4xl md:text-5xl lg:text-6xl text-primary-blue text-center leading-tight;
   }
+  .section-heading {
+    @apply font-primary font-bold text-2.5xl text-primary-blue text-center leading-tight md:text-left lg:text-left lg:text-4xl;
+  }
   .body-text {
-    @apply font-primary font-normal text-lg text-gray-500 text-center;
+    @apply font-primary font-normal text-lg text-gray-500 text-center md:text-left lg:text-left;
   }
   .button-primary {
     @apply bg-primary-red text-white font-primary font-bold  text-base px-8 py-[0.7rem] rounded-full shadow-xl shadow-primary-red/50;
+  }
+  .feature-box {
+    @apply py-4 px-2 text-base text-left text-gray-500;
+  }
+  .feature-box-heading {
+    @apply text-base bg-light-orange text-primary-blue mb-3 py-1 lg:bg-white;
+  }
+  .feature-box-number {
+    @apply mr-2 px-5 py-2 bg-primary-red rounded-2xl text-white;
+  }
+  .feature-box-desc {
+    @apply lg:pl-16;
   }
 }
 
