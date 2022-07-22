@@ -7,10 +7,10 @@
     @apply px-4 bg-primary-red text-white drop-shadow-sm font-normal font-primary rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-opacity-75;
   }
   body {
-    @apply font-primary m-0 box-border w-full lg:w-9/12 mx-auto;
+    @apply font-primary m-0 box-border w-full mx-auto;
   }
   .fluid {
-    @apply px-6 md:px-24 lg:px-40 w-full;
+    @apply px-6 md:px-24 lg:px-40 lg:w-9/12;
   }
   .bannner-heading {
     @apply font-primary font-bold text-4xl capitalize md:text-5xl lg:text-6xl text-primary-blue text-center leading-tight;
@@ -32,6 +32,9 @@
   }
   .feature-box-number {
     @apply mr-2 px-5 py-2 bg-primary-red rounded-full text-white lg:mr-8;
+  }
+  .testimonial-slide {
+    @apply pb-11 px-8 w-full bg-light-gray text-center flex justify-center items-center flex-col gap-6;
   }
 }
 
