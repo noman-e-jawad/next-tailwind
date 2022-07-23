@@ -36,6 +36,12 @@
   .testimonial-slide {
     @apply pb-11 px-8 w-full bg-light-gray text-center flex justify-center items-center flex-col gap-6;
   }
+  .nav-item {
+    @apply text-sm font-medium  text-left text-light-gray flex flex-col gap-6;
+  }
+  .social-icon {
+    @apply h-8 w-8 object-contain md:h-5 md:w-5;
+  }
 }
 
 /* p-1 = .25rem = 4px*/
