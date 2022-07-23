@@ -14,6 +14,9 @@
   .bannner-heading {
     @apply font-primary font-bold text-4xl md:text-5xl lg:text-6xl text-primary-blue text-center leading-tight;
   }
+  .section-heading {
+    @apply font-bold text-2.5xl text-primary-blue text-center capitalize leading-tight md:text-left lg:text-left lg:text-4xl lg:mb-3;
+  }
   .body-text {
     @apply font-primary font-normal text-lg text-gray-500 text-center;
   }
