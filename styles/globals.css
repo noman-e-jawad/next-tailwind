@@ -12,7 +12,7 @@
   .fluid {
     @apply px-6 md:px-24 lg:px-40 lg:w-9/12;
   }
-  .bannner-heading {
+  .banner-heading {
     @apply font-primary font-bold text-4xl capitalize md:text-5xl lg:text-6xl text-primary-blue text-center leading-tight;
   }
   .section-heading {
