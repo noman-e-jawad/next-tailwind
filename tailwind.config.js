@@ -1,7 +1,7 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/Components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     screens: {
@@ -16,11 +16,11 @@ module.exports = {
       },
       colors: {
         primary: {
-          red: "#f25f3a",
+          red: "#f3603c",
           blue: "#242d52",
         },
       },
     },
   },
-  plugins: [],
+  plugins: [require("autoprefixer"), require("postcss")],
 };
