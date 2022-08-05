@@ -16,7 +16,7 @@
     @apply font-primary font-bold text-4xl capitalize md:text-5xl lg:text-6xl text-primary-blue text-center leading-tight;
   }
   .section-heading {
-    @apply font-bold text-2.5xl text-primary-blue text-center capitalize leading-tight md:text-left lg:text-left lg:text-4xl lg:mb-3;
+    @apply font-bold text-2.5xl text-primary-blue text-center capitalize leading-tight md:text-left  lg:text-left lg:text-4xl lg:mb-3;
   }
   .body-text {
     @apply font-primary font-normal text-base text-gray-500 text-center md:text-left lg:text-left;
@@ -24,6 +24,11 @@
   .button-primary {
     @apply bg-primary-red text-white font-primary font-bold  text-base px-8 py-[0.7rem] rounded-full shadow-xl shadow-primary-red/50;
   }
+
+  .text-input {
+    @apply focus-visible:outline-none bg-white text-gray-500 font-primary   text-base px-8 py-[0.7rem] rounded-full;
+  }
+
   .feature-box {
     @apply text-base text-left;
   }
