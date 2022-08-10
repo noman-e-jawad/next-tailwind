@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,22 +7,46 @@
     @apply px-4 bg-primary-red text-white drop-shadow-sm font-normal font-primary rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-opacity-75;
   }
   body {
-    @apply font-primary m-0 box-border;
+    @apply font-primary m-0 box-border w-full mx-auto;
   }
   .fluid {
-    @apply px-6 md:px-24 lg:px-48 w-full;
+    @apply px-6 md:px-24 lg:px-40 lg:w-9/12;
   }
-  .bannner-heading {
-    @apply font-primary font-bold text-4xl md:text-5xl lg:text-6xl text-primary-blue text-center leading-tight;
+  .banner-heading {
+    @apply font-primary font-bold text-4xl capitalize md:text-5xl lg:text-6xl text-primary-blue text-center leading-tight;
+  }
+  .section-heading {
+    @apply font-bold text-2.5xl text-primary-blue text-center capitalize leading-tight md:text-left  lg:text-left lg:text-4xl lg:mb-3;
   }
   .body-text {
-    @apply font-primary font-normal text-lg text-gray-500 text-center;
+    @apply font-primary font-normal text-base text-gray-500 text-center md:text-left lg:text-left;
   }
   .button-primary {
     @apply bg-primary-red text-white font-primary font-bold  text-base px-8 py-[0.7rem] rounded-full shadow-xl shadow-primary-red/50;
   }
-}
 
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+  .text-input {
+    @apply focus-visible:outline-none bg-white text-gray-500 font-primary   text-base px-8 py-[0.7rem] rounded-full;
+  }
+
+  .feature-box {
+    @apply text-base text-left;
+  }
+  .feature-box-heading {
+    @apply text-base capitalize bg-light-orange text-primary-blue mb-5 py-1 lg:bg-white rounded-tl-full rounded-bl-full font-bold;
+  }
+  .feature-box-number {
+    @apply mr-2 px-5 py-2 bg-primary-red rounded-full text-white lg:mr-8;
+  }
+  .testimonial-slide {
+    @apply pb-11 px-8 w-full bg-light-gray text-center flex justify-center items-center flex-col gap-6;
+  }
+  .nav-item {
+    @apply text-sm font-medium  text-left text-light-gray flex flex-col gap-6;
+  }
+  .social-icon {
+    @apply h-8 w-8 object-contain md:h-5 md:w-5;
+  }
+}
 
 /* p-1 = .25rem = 4px*/

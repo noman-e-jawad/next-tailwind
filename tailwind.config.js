@@ -1,7 +1,7 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./src/Components/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     screens: {
@@ -14,10 +14,21 @@ module.exports = {
       fontFamily: {
         primary: ["Be Vietnam Pro", "sans-serif"],
       },
+      fontSize: {
+        "2.5xl": "28px",
+      },
       colors: {
         primary: {
-          red: "#f3603c",
+          red: "#f25f3a",
           blue: "#242d52",
+        },
+        light: {
+          orange: "#FFF0EB",
+          gray: "#fafafa",
+        },
+        dark: {
+          blue: "#1D1E25",
+          graishBlue: "#9095A7",
         },
       },
     },
