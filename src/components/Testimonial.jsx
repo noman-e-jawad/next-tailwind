@@ -108,7 +108,7 @@ const Testimonial = () => {
         </SwiperSlide>
       </Swiper>
       <div className="max-w-full container text-center">
-        <button className="button-primary">Click Here</button>
+        <button className="button-primary">Get Started</button>
       </div>
     </section>
   );
