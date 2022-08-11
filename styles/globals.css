@@ -10,7 +10,7 @@
     @apply font-primary m-0 box-border w-full mx-auto;
   }
   .fluid {
-    @apply px-6 md:px-24 lg:px-40 lg:w-9/12;
+    @apply px-6 md:px-24 lg:px-40 lg:w-full;
   }
   .banner-heading {
     @apply font-primary font-bold text-4xl capitalize md:text-5xl lg:text-6xl text-primary-blue text-center leading-tight;

@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
-import Banner from "../src/Components/Banner";
-import CallToAction from "../src/Components/CallToAction";
+import Banner from "../src/components/Banner";
 import Footer from "../src/Components/Footer";
 import Header from "../src/Components/Header";
-import Services from "../src/Components/Services";
-import Testimonial from "../src/Components/Testimonial";
+import Testimonial from "../src/components/Testimonial";
+import CTA from "../src/components/CTA";
+import Features from "../src/components/Features";
 
 export default function Home() {
   return (
@@ -18,9 +18,9 @@ export default function Home() {
       <main className="">
         <Header />
         <Banner />
-        <Services />
+        <Features />
         <Testimonial />
-        <CallToAction />
+        <CTA />
         <Footer />
       </main>
     </div>

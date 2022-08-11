@@ -2,7 +2,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <section className="fluid py-20 bg-white grid grid-cols-1 md:pr-0 md:gap-6 lg:gap-10  lg:grid-cols-2 bg-[url('/images/bg-tablet-pattern.svg')] bg-[left_15rem_top_-43rem] bg-no-repeat md:bg-none">
+    <section className="fluid py-20 bg-white grid grid-cols-1 md:gap-6 lg:gap-10  lg:grid-cols-2 md:bg-none relative">
       <div className="pb-3 ">
         <h2 className="section-heading"> What’s different about Manage?</h2>
         <p className=" pt-5 body-text w-full lg:w-10/12">
@@ -46,7 +46,7 @@ const Features = () => {
           </p>
         </div>
       </div>
-      <div className="absolute h-[40rem] w-[40rem] bg-[url('/images/bg-tablet-pattern.svg')] bottom-[-22rem] left-[-22rem] bg-no-repeat bg-cover hidden md:block"></div>
+      <div className="absolute h-[40rem] w-[40rem] bg-[url('/images/bg-tablet-pattern.svg')] bottom-[-22rem] left-[-22rem] bg-no-repeat bg-cover hidden lg:block"></div>
     </section>
   );
 };

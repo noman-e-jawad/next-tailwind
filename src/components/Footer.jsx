@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className=" fluid w-full  h-full flex flex-col justfiy-center gap-12 items-center bg-dark-blue py-12 md:flex-row-reverse md:items-start  ">
+    <footer className=" fluid w-full  h-full flex flex-col justfiy-center gap-12 items-center bg-dark-blue py-12 md:flex-row-reverse md:items-start relative ">
       {/* Form */}
       <div className="flex gap-4">
         <input
